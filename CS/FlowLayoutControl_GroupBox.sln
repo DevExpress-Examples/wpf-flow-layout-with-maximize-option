@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowLayoutControl_GroupBox", "FlowLayoutControl_GroupBox\FlowLayoutControl_GroupBox.csproj", "{CE6C5D5D-1DB4-4653-967F-50A958901E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6C5D5D-1DB4-4653-967F-50A958901E83}.Debug|x86.ActiveCfg = Debug|x86
+		{CE6C5D5D-1DB4-4653-967F-50A958901E83}.Debug|x86.Build.0 = Debug|x86
+		{CE6C5D5D-1DB4-4653-967F-50A958901E83}.Release|x86.ActiveCfg = Release|x86
+		{CE6C5D5D-1DB4-4653-967F-50A958901E83}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

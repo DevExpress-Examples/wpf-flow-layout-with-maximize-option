@@ -1,0 +1,31 @@
+﻿<Window x:Class="FlowLayoutControl_GroupBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="myGroupBoxStyle" TargetType="lc:GroupBox">
+            <Setter Property="MaximizeElementVisibility" Value="Visible"/>
+            <Setter Property="MinimizeElementVisibility" Value="Visible"/>
+            <Setter Property="Width" Value="150"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <lc:FlowLayoutControl Orientation="Vertical" Background="#FFFAFAFA" BreakFlowToFit="True" 
+			MaximizedElementPosition="Right" MaximizedElement="{Binding ElementName=groupBox1}">
+            <lc:GroupBox x:Name="groupBox1" Header="Group 1" Style="{StaticResource  myGroupBoxStyle}">
+                <TextBlock  TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie porttitor congue..."/>
+            </lc:GroupBox>
+            <lc:GroupBox  Header="Group 2" Style="{StaticResource  myGroupBoxStyle}">
+                <TextBlock  TextWrapping="Wrap" Text="Ut sagittis urna et lorem..."/>
+            </lc:GroupBox>
+            <lc:GroupBox  Header="Group 3" Style="{StaticResource  myGroupBoxStyle}">
+                <TextBlock  TextWrapping="Wrap" Text="Nunc diam justo, tempus sit amet..."/>
+            </lc:GroupBox>
+            <lc:GroupBox  Header="Group 4" Style="{StaticResource  myGroupBoxStyle}">
+                <TextBlock  TextWrapping="Wrap" Text="Quisque iaculis, risus ac bibendum ornare..."/>
+            </lc:GroupBox>
+        </lc:FlowLayoutControl>
+    </Grid>
+</Window>
