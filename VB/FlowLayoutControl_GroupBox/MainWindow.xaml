@@ -1,4 +1,4 @@
-﻿<Window x:Class="FlowLayoutControl_GroupBox.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="MainWindow" Height="350" Width="525">
+<Window x:Class="FlowLayoutControl_GroupBox.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <Style x:Key="myGroupBoxStyle" TargetType="lc:GroupBox">
             <Setter Property="MaximizeElementVisibility" Value="Visible" />
