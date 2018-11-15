@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/FlowLayoutControl_GroupBox/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/FlowLayoutControl_GroupBox/MainWindow.xaml))
+<!-- default file list end -->
 # How to: Display items in FlowLayoutControl and enable maximization feature 
 
 
