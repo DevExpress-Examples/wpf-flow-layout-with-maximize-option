@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 16
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FlowLayoutControl_GroupBox", "FlowLayoutControl_GroupBox\FlowLayoutControl_GroupBox.Net5.vbproj", "{CE6C5D5D-1DB4-4653-967F-50A958901E83}"
 EndProject
