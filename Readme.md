@@ -38,7 +38,7 @@ Use the [FlowLayoutControl.MaximizedElement](https://docs.devexpress.com/WPF/De
 * [GroupBox.MaximizeElementVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.LayoutControl.GroupBox.MaximizeElementVisibility)
 * [GroupBox.State](https://docs.devexpress.com/WPF/DevExpress.Xpf.LayoutControl.GroupBox.State)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-flow-layout-with-maximize-option&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-flow-layout-with-maximize-option&~~~was_helpful=no)
 
